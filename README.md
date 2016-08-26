@@ -19,9 +19,9 @@
 ### Display Property
 
 - The default value for all elements is inline. Most "User Agent stylesheets" (the default styles the browser applies to all sites) reset many elements to "block".
-- *Inline:* ```<span>```, ```<em>``` Text wraps around me! I accept margin and padding, but only push things horizontally, not vertically. I am going to politely ignore your height and width instructions.
-- *Inline-Block:* An element set to ```inline-block``` is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). The difference is that you are able to set a ```width``` and ```height``` which will be respected.
-- *Block:*  A number of elements are set to block by UA stylesheets, usually container elements. ```<div>```, ```<ul>```, ```<section>```, and a bunch more. Also, text blocks like: ```<p>```, ```<h1>```. I do not sit inline! I will take up as much horizontal space as possible!
+- **Inline:** ```<span>```, ```<em>``` Text wraps around me! I accept margin and padding, but only push things horizontally, not vertically. I am going to politely ignore your height and width instructions.
+- **Inline-Block:** An element set to ```inline-block``` is very similar to inline in that it will set inline with the natural flow of text (on the "baseline"). The difference is that you are able to set a ```width``` and ```height``` which will be respected.
+- **Block:**  A number of elements are set to block by UA stylesheets, usually container elements. ```<div>```, ```<ul>```, ```<section>```, and a bunch more. Also, text blocks like: ```<p>```, ```<h1>```. I do not sit inline! I will take up as much horizontal space as possible!
 
 ```
 div {
