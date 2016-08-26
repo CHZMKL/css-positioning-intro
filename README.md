@@ -40,3 +40,15 @@ div {
 - You specify the position of your element via offset properties: ```auto``` (default), ```top```, ```bottom```, ```right```, ```left```
 - An element whose position property is set to absolute or fixed is called an absolutely positioned element. 
 - A positioned element can take advantage of the ```z-index``` property to specify its stack order. ```z-index``` only effects elements that have a position value other than static (the default). Without any z-index value, elements stack in the order that they appear in the DOM (the lowest one down at the same hierarchy level appears on top). Elements with non-static positioning will always appear on top of elements with default static positioning. Also note that nesting plays a big role. If an element B sits on top of element A, a child element of element A can never be higher than element B.
+
+### Floats
+
+- "Floating" an element takes it in the normal flow, as far to the left or right of it's containing element as possible.
+Any other elements, such as paragraphs or lists, will wrap around the floated element.(it was originally intended only for magazine style text wrapping)
+- Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.
+- You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.
+
+```none```: the element does not float. This is the initial value.
+```left```: floats the element to the left of its container.
+```right```: floats the element to the right of its container.
+```inherit```: the element inherits the float direction of its parent.
