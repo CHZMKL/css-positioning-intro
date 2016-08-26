@@ -54,11 +54,9 @@ Any other elements, such as paragraphs or lists, will wrap around the floated el
 - ```inherit```: the element inherits the float direction of its parent.
 - ```clear```: Float's sister property. An element that has the clear property set on it will not move up adjacent to the float like the float desires, but will move itself down past the float. 
 ```
-.clearfix:after { 
-  content: "";
-  visibility: hidden;
-  display: block;
-  height: 0;
-  clear: both;
+.clearfix:after {
+    content:" ";
+    display:table;
+    clear:both;
 }
 ```
