@@ -31,3 +31,10 @@ div {
   display: none;          /* Hide */
 }
 ```
+
+### Positioning Property
+
+- ```relative```: A relatively or stickily positioned element preserves its space. The adjacent elements aren’t repositioned to occupy the reserved space for this element. However, the offsets of this element don’t occupy space. They’re completely ignored from the other elements, and hence that may causes elements to overlap each other.
+- ```absolute```: An absolutely positioned element is completely removed from the normal flow. The adjacent sibling elements occupy its space.
+- ```fixed```: A fixed positioned element (subcategory of the absolute positioning) is positioned relative to the viewport
+- ```sticky```: A stickily positioned element is positioned relative to the nearest ancestor with a scrolling box (e.g. overflow:auto). If there isn’t such an ancestor, it is positioned relative to the viewport.
