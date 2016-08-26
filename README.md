@@ -48,7 +48,7 @@ Any other elements, such as paragraphs or lists, will wrap around the floated el
 - Always specify a width when floating an element, otherwise the element is likely to take up the whole page and not appear floated.
 - You can specify a) whether an element is floated or not, and b) which side it ﬂoats on.
 
-```none```: the element does not float. This is the initial value.
-```left```: floats the element to the left of its container.
-```right```: floats the element to the right of its container.
-```inherit```: the element inherits the float direction of its parent.
+- ```none```: the element does not float. This is the initial value.
+- ```left```: floats the element to the left of its container.
+- ```right```: floats the element to the right of its container.
+- ```inherit```: the element inherits the float direction of its parent.
