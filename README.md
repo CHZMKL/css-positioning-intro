@@ -39,3 +39,5 @@ div {
 - ```fixed```: A fixed positioned element (subcategory of the absolute positioning) is positioned relative to the viewport
 - ```sticky```: A stickily positioned element is positioned relative to the nearest ancestor with a scrolling box (e.g. overflow:auto). If there isn’t such an ancestor, it is positioned relative to the viewport.
 - You specify the position of your element via offset properties: ```auto``` (default), ```top```, ```bottom```, ```right```, ```left```
+- An element whose position property is set to absolute or fixed is called an absolutely positioned element. 
+- A positioned element can take advantage of the ```z-index``` property to specify its stack order.
