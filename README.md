@@ -38,3 +38,4 @@ div {
 - ```absolute```: An absolutely positioned element is completely removed from the normal flow. The adjacent sibling elements occupy its space.
 - ```fixed```: A fixed positioned element (subcategory of the absolute positioning) is positioned relative to the viewport
 - ```sticky```: A stickily positioned element is positioned relative to the nearest ancestor with a scrolling box (e.g. overflow:auto). If there isn’t such an ancestor, it is positioned relative to the viewport.
+- You specify the position of your element via offset properties: ```auto``` (default), ```top```, ```bottom```, ```right```, ```left```
